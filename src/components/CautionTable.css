@@ -1,0 +1,21 @@
+.title-dark-blue {
+  color: rgb(4, 4, 77);
+}
+
+.table thead th {
+  background-color: #032d5a;
+  color: white;
+}
+@font-face {
+  font-family: 'Dax';
+  src: url('../assets/fonts/Dax-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Dax';
+  src: url('../assets/fonts/Dax-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}

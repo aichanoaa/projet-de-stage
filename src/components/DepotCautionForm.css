@@ -1,0 +1,100 @@
+.form-row-custom {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.form-row-custom label {
+  width: 150px;
+  font-weight: 500;
+  margin-right: 10px;
+  text-align: right;
+}
+
+.form-row-custom .form-control,
+.form-row-custom .form-select {
+  flex: 1;
+}
+.form-horizontal .form-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.form-horizontal .form-label {
+  width: 180px;
+  margin-right: 1rem;
+  font-weight: 500;
+}
+
+.form-horizontal .form-control {
+  flex: 1;
+}
+
+
+.card {
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.form-wrapper {
+  max-width: 850px;
+  margin-left: auto;
+  margin-right: 0;
+  padding: 1rem;
+}
+.my-custom-btn {
+  background-color: #f6f6f6 !important;
+  border-color: rgb(110, 108, 108) !important;
+  color: rgb(110, 108, 108) !important;
+  font-family: 'Dax';
+
+}
+/* === Importation des polices Dax === */
+@font-face {
+  font-family: 'Dax';
+  src: url('../assets/fonts/Dax-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Dax';
+  src: url('../assets/fonts/Dax-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+
+/* === Styles generaux === */
+body,
+.form-wrapper {
+  font-family: 'Dax', sans-serif;
+  background-color: #f8f9fa;
+  padding: 20px;
+}
+
+/* Titre */
+h5 {
+  font-family: 'Dax';
+  font-weight: 500;
+  margin: 0;
+}
+
+/* Sous-titres */
+h6 {
+  font-family: 'Dax';
+  font-weight: 300;
+}
+
+/* Champs du formulaire */
+.form-row-custom {
+  margin-bottom: 1.2rem;
+}
+
+/* Erreurs */
+.text-danger {
+  font-size: 0.85rem;
+  margin-top: 0.25rem;
+  font-family: 'Dax';
+  font-weight: 300;
+}

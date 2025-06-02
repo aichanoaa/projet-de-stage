@@ -11,3 +11,20 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+@font-face {
+  font-family: 'Dax';
+  src: url('./assets/fonts/Dax-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Dax';
+  src: url('./assets/fonts/Dax-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+/*
+font-weight: 500 pour Dax Medium
+font-weight: 300 pour Dax Light
+*/

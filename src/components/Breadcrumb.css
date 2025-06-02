@@ -1,0 +1,127 @@
+
+.breadcrumb-nav svg {
+  color: #0d6efd; /* bleu pour la flèche */
+}
+
+.breadcrumb-nav {
+  margin-bottom: 1rem;
+  font-size: 0.95rem;
+}
+
+.breadcrumb-list {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.breadcrumb-item {
+  display: flex;
+  align-items: center;
+}
+
+.breadcrumb-link {
+  color: #0d6efd;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.breadcrumb-link:hover {
+  color: #0a58ca;
+  text-decoration: underline;
+}
+
+.breadcrumb-current {
+  color: #2973b5;
+  font-weight: 500;
+}
+
+
+
+
+.breadcrumb-dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu a:hover {
+  background-color: #e9ecef;
+}
+
+
+/* Font import (si tu utilises une police personnalisée comme Dax) */
+@font-face {
+  font-family: 'Dax';
+  src: url('../assets/fonts/Dax-Medium.ttf') format('truetype');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Dax';
+  src: url('../assets/fonts/Dax-Light.ttf') format('truetype');
+  font-weight: 300;
+}
+
+.breadcrumb-dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.breadcrumb-dropdown > span {
+  cursor: pointer;
+  color: #0d6efd;
+  text-decoration: underline;
+  user-select: none;
+  font-family: 'Dax', sans-serif;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: white;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  z-index: 1000;
+  min-width: 180px;
+}
+
+.dropdown-menu a {
+  display: block;
+  padding: 0.25rem 1rem;
+  color: #0d6efd;
+  text-decoration: none;
+  font-family: 'Dax', sans-serif;
+}
+
+.dropdown-menu a:hover {
+  background-color: #f8f9fa;
+}
+
+.breadcrumb-nav {
+  margin-bottom: 1rem;
+  font-family: 'Dax', sans-serif;
+}
+
+.breadcrumb-list {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  align-items: center;
+}
+
+.breadcrumb-item {
+  display: flex;
+  align-items: center;
+}
+
+.breadcrumb-link {
+  color: #0d6efd;
+  text-decoration: none;
+}
+
+.breadcrumb-current {
+  color: #6c757d;
+}
