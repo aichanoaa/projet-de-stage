@@ -45,7 +45,7 @@ import Recuperation from "./pages/Recuperation";
 import Breadcrumb from "./components/Breadcrumb";
 import Header from "./components/Header";
 
-import EtatCautionPage from "./pages/EtatCautionPage"; 
+import EtatCautionPage from "./pages/EtatCautionPage";
 
 function App() {
   return (

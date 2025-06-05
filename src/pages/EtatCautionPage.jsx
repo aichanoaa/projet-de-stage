@@ -7,11 +7,7 @@ import Split from "@uiw/react-split";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 export default function EtatCautionPage() {
-  const breadcrumbItems = [
-    { label: "Palette Track", href: "/" },
-    { label: "État de caution" }
-  ];
-
+  
   return (
     <div className="container-fluid mt-3" style={{ height: "auto" }}>
       <Split mode="horizontal">
@@ -21,7 +17,7 @@ export default function EtatCautionPage() {
             padding: "1rem",
             color: "white",
             width: "100%",
-            height: "auto"
+            height: "100%"
           }}
         >
           {/* Tu peux ajouter des composants ici si nécessaire */}
@@ -36,7 +32,6 @@ export default function EtatCautionPage() {
             height: "100%"
           }}
         >
-          <Breadcrumb items={breadcrumbItems} />
           <SidebarBootstrap />
           <EtatCaution />
         </div>
