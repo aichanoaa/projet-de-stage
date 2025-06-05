@@ -1,3 +1,29 @@
+
+/* === Importation des polices Dax === */
+@font-face {
+  font-family: 'Dax';
+  src: url('../assets/fonts/Dax-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Dax';
+  src: url('../assets/fonts/Dax-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+
+/* === Styles generaux === */
+body{
+  font-family: 'Dax', sans-serif;
+  background-color: #f8f9fa;
+  padding: 20px;
+}
+
+
+
 .hover-effect {
   transition: transform 0.2s ease, opacity 0.2s ease;
 }
@@ -10,6 +36,16 @@
 
 .sidebar {
   z-index: 1000;
+  width: 60px;
+  height: 100vh;
+  background-color: #f8f9fa;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 1rem;
+  position: relative;
+    border-top: 1px solid #ccc;
+    border-left: 1px solid #ccc;
 }
 
 @media (max-width: 576px) {
@@ -23,7 +59,7 @@
     left: 0;
     justify-content: space-around;
     border-top: 1px solid #ccc;
-    border-left: none;
+    border-left: 1px solid #ccc;
   }
 }
 .blue-icons svg  {

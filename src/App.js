@@ -43,18 +43,24 @@ import Deconsignation from "./pages/Deconsignation";
 import DepotCaution from "./pages/DepotCaution";
 import Recuperation from "./pages/Recuperation";
 import Breadcrumb from "./components/Breadcrumb";
+import Header from "./components/Header";
+
+import EtatCautionPage from "./pages/EtatCautionPage"; 
 
 function App() {
   return (
     <div>
+      <Header />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/flux-interne" element={<FluxInterne />} />
-        <Route path="/flux-interne/consignation" element={<Consignation />} />
-        <Route path="/flux-interne/deconsignation" element={<Deconsignation />} />
-        <Route path="/depot-de-caution" element={<DepotCaution />} />
-        <Route path="/recuperation" element={<Recuperation />} />
-      </Routes>
+  <Route path="/" element={<Home />} />
+  <Route path="/flux-interne" element={<FluxInterne />} />
+  <Route path="/flux-interne/consignation" element={<Consignation />} />
+  <Route path="/flux-interne/deconsignation" element={<Deconsignation />} />
+  <Route path="/depot-de-caution" element={<DepotCaution />} />
+  <Route path="/etat-caution" element={<EtatCautionPage />} />
+  <Route path="/recuperation" element={<Recuperation />} />
+</Routes>
+
     </div>
   );
 }

@@ -5,7 +5,7 @@ const routesTree = {
   children: [
     {
       label: "Flux interne",
-      path: "/flux-interne/",
+      path: "/flux-interne",
       children: [
         {
           label: "Consignation",
